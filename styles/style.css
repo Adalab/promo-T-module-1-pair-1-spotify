@@ -2,9 +2,54 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 header {
     background-color: black;
     color: white;
 }
+img {
+    width: 100px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+li {
+    list-style: none;
+}
+.menu {
+    display: flex;
+}
+.link {
+    text-decoration: none;
+}
+.link2 {
+    text-decoration: none;
+    color: white;
+    background-color: #26B759;
+    padding: 15px;
+    width: 120px;
+    border-radius: 60px;
+}
+.principal {
+    background-color: #529DF2;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.secundaria {
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.secundaria2 {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
 
