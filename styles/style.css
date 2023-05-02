@@ -4,22 +4,24 @@
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
-header {
+.header {
     background-color: black;
     color: white;
-}
-img {
-    width: 100px;
-}
-.header {
     display: flex;
     justify-content: space-between;
+}
+.logo {
+    height: 60px;
+    padding: 10px;
 }
 li {
     list-style: none;
 }
 .menu {
     display: flex;
+    gap: 20px;
+    padding: 10px;
+
 }
 .link {
     text-decoration: none;
@@ -34,22 +36,59 @@ li {
 }
 .principal {
     background-color: #529DF2;
+    background-image:url(../images/premium_dancer.png);
+    background-size: 300px;
+    background-position: bottom right;
+    background-repeat: no-repeat;
     height: 400px;
+    padding: 20px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+.conditions {
+    font-size: 10px;
+}
 .secundaria {
     height: 400px;
+    padding: 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+}
+.title2 {
+    text-align: center;
+    display: flex;
+    align-items: center;
 }
 .secundaria2 {
     display: flex;
     flex-wrap: wrap;
-
+}
+.article {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo2 {
+    height: 60px;
+    padding: 10px;
+}
+.footer {
+    background-color: black;
+    color: lightgrey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    padding: 20px;
+    font-size: 8px;
 }
 
-
-
+.country {
+    display: inline-block;
+}
+.flag {
+    height: 15px;
+}
