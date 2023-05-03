@@ -40,7 +40,7 @@ li {
     background-size: 300px;
     background-position: bottom right;
     background-repeat: no-repeat;
-    height: 400px;
+    height: 50vh;
     padding: 20px;
     color: white;
     display: flex;
