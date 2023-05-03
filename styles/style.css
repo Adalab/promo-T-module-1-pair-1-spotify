@@ -9,6 +9,10 @@
     color: white;
     display: flex;
     justify-content: space-between;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 .logo {
     height: 60px;
@@ -33,6 +37,11 @@ li {
     padding: 15px;
     width: 120px;
     border-radius: 60px;
+}
+.main {
+    padding-top: 60px;
+    width: 100vw;
+
 }
 .principal {
     background-color: #529DF2;
