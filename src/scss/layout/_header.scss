@@ -1,5 +1,43 @@
-.page__header {
+.header {
+  background-color: black;
+  color: white;
   display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 3rem;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 99;
+}
+
+.logo {
+  height: 60px;
+  padding: 10px;
+}
+
+.burguer {
+  height: 50px;
+  padding: 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.menu {
+  display: none;
+  gap: 20px;
+  padding: 10px;
+}
+.link {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .menu {
+    display: flex;
+  }
+
+  .burguer {
+    display: none;
+  }
 }

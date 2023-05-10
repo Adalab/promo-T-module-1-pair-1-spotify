@@ -1,8 +1,24 @@
-.page__footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100vw;
-  padding: 1rem;
-  color: $color-secondary;
+.footer {
+  background-color: black;
+  color: lightgrey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 20px;
+  font-size: 8px;
+}
+
+.menu2 {
+  display: flex;
+  gap: 20px;
+  padding: 10px;
+}
+
+.country {
+  display: inline-block;
+}
+
+.flag {
+  height: 15px;
 }
