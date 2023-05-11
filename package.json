@@ -20,7 +20,10 @@
 		"gulp-uglify-es": "^2.0.0",
 		"gulp-zip": "*",
 		"node-sass": "^8.0.0",
+<<<<<<< HEAD
 		
+=======
+>>>>>>> a802637747628a3402b3273df942836c9036c72a
 		"run-sequence": "*"
 	},
 	"devDependencies": {
